@@ -1,0 +1,22 @@
+
+exclude:
+  - node_modules
+  - vite-project
+  - dist
+  - build
+  - .git
+  - .github
+  - README.md
+  - package.json
+  - package-lock.json
+  - yarn.lock
+  - .nojekyll
+  - .vscode
+  - .DS_Store
+
+# Plugins (optional, only if you use them)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
